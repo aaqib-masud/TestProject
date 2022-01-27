@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+
+<Alarms xmlns="http://hp.com/uca/expert/x733Alarm">
+	
+	<AlarmStateChangeInterface>
+		<identifier><![CDATA[OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 9226700]]></identifier>
+		<attributeChanges>
+<!--             <attributeChange name="networkState" newValue="CLEARED" oldValue="NOT_CLEARED" /> -->
+         <attributeChange name="operatorState" newValue="TERMINATED" oldValue="NOT_ACKNOWLEDGED" />
+        </attributeChanges>
+	</AlarmStateChangeInterface>
+
+</Alarms>
+    

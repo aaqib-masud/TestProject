@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<valuePackConfiguration xmlns="http://hp.com/uca/expert/config" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	name="__PROJECT_NAME__" version="__PROJECT_VERSION__">
+	
+	
+	<scenarios>
+		<scenario name="com.hp.uca.expert.vp.pd.ProblemDetection">
+			<actionRetractedAutomaticallyWhenCompleted>true</actionRetractedAutomaticallyWhenCompleted>
+<!-- 			<alarmEligibilityPolicy><![CDATA[(ProblemState == "HANDLED") || (  ProblemState == "NOT_HANDLED"  && (OperatorState != "TERMINATED" && NetworkState != "CLEARED") )]]></alarmEligibilityPolicy> -->
+			<alarmEligibilityPolicy><![CDATA[(OperatorState != "TERMINATED" && NetworkState != "CLEARED" && ProblemState != "CLOSED")]]></alarmEligibilityPolicy>
+			<asyncActionPeriod>1000</asyncActionPeriod>
+			<clockTypeMode>NORMAL</clockTypeMode>
+			<filterFiles>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_Datacom_All_Critical_Alarms_2Min_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_Datacom_NonOutage_15Min_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_MW_VIP_HUB_ENV_20Min_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_MW_VIP_HUB_ENV_Immed_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_MW_VIP_HUB_ENV_60Min_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_MW_VIP_HUB_ENV_3hrs_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_MW_VIP_HUB_ENV_10Min_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_MW_Notification_10Minute_Alarms_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_MW_Notification_20Minute_Alarm_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_MW_Notification_60Minute_Alarm_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_MW_Notification_3hrs_Alarm_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_VAS_2min_Alarm_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_MW_Internal_Alarms_Low_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_Datacom_Media_Fluctuation_Alarms_Immed_LinkDown_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_Datacom_BFD_Critical_Alarms_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_Datacom_BGP_Alarms_Immed_filters.xml</filterFile>
+				<filterFile>src/main/resources/valuepack/pd/Problem_Ufone_UTXM_URTN_EMS_Disconnection_filters.xml</filterFile>
+			</filterFiles>
+			
+			<filterTagsFile>src/main/resources/valuepack/pd/ProblemDetection_filtersTags.xml</filterTagsFile>
+	        <mapperFile>src/main/resources/valuepack/pd/ProblemDetection_mappers.xml</mapperFile>
+			<fireAllRulePeriod>1000</fireAllRulePeriod>
+			<fireAllRulesDuringResynchronization>false</fireAllRulesDuringResynchronization>
+			<fireAllRulesPolicy>WATCHDOG</fireAllRulesPolicy>
+			<globals></globals>
+			<processingMode>CLOUD</processingMode>
+			<rulesFiles>
+				<rulesFile>
+					<filename>file:./src/main/resources/valuepack/pd/ProblemDetection_Rules.pkg</filename>
+					<name>Problem Detection Rules</name>
+					<ruleFileType>PKG</ruleFileType>
+				</rulesFile>
+			</rulesFiles>
+			<tickPeriod>30000</tickPeriod>			
+				<customLifeCycleClass>com.hp.uca.expert.vp.pd.im.lifecycle.PTCL_InferenceMachineLifeCycleExtended</customLifeCycleClass>				
+			<customInitializationClass>com.hp.uca.expert.vp.pd.core.PD_Initialization</customInitializationClass>
+			<compressionMode>true</compressionMode>
+			<compressionPeriod>1000</compressionPeriod>
+		</scenario>
+	
+	</scenarios>
+		
+	<mediationFlows >
+		<!-- For UMB flow name eg: PDExampleFlow TeMIPDynamicFlow-->
+	
+		<UMBmediationFlow name="temipFlow2"  automaticStart="false"  targetAdapterName="TeMIPGroup"  targetFlowName="TeMIPDynamicFlow" >
+    		<flowParameters>
+    			<flowParameter value="wireless_utxm_01" key="operationContext"/>
+    			<flowParameter value="wireless_urtn_01" key="operationContext"/>
+	   		</flowParameters>
+    	</UMBmediationFlow>	
+    	<UMBmediationFlow name="temipFlow3"  automaticStart="false"  targetAdapterName="TeMIPGroup"  targetFlowName="TeMIPDynamicFlow" >
+    		<flowParameters>
+				<flowParameter value="billing_i2000_ubill_01" key="operationContext"/>
+				<flowParameter value="cloud_i2000_usmsc_01" key="operationContext"/>
+				<flowParameter value="vas_i2000_ucrbt_01" key="operationContext"/>
+	   		</flowParameters>
+    	</UMBmediationFlow>	
+    
+    	
+	</mediationFlows>
+	
+   	
+</valuePackConfiguration>

@@ -1,0 +1,563 @@
+2020-03-22 09:19:19.847+0000 INFO  [org.neo4j]: You are using an unsupported version of the Java runtime. Please use Oracle(R) Java(TM) Runtime Environment 7.
+2020-03-22 09:19:20.172+0000 INFO  [org.neo4j]: --- INITIALIZED diagnostics START ---
+2020-03-22 09:19:20.175+0000 INFO  [org.neo4j]: Neo4j Kernel properties:
+    neostore.propertystore.db.strings.mapped_memory=141M
+    ephemeral=false
+    neostore.nodestore.db.mapped_memory=46M
+    store_dir=.\\neo4j
+    neostore.propertystore.db.arrays.mapped_memory=160M
+    neostore.propertystore.db.mapped_memory=166M
+    neostore.relationshipstore.db.mapped_memory=203M
+2020-03-22 09:19:20.186+0000 INFO  [org.neo4j]: Diagnostics providers:
+    org.neo4j.kernel.configuration.Config
+    org.neo4j.kernel.info.DiagnosticsManager
+    SYSTEM_MEMORY
+    JAVA_MEMORY
+    OPERATING_SYSTEM
+    JAVA_VIRTUAL_MACHINE
+    CLASSPATH
+    LIBRARY_PATH
+    SYSTEM_PROPERTIES
+    NETWORK
+    NodeCache
+    RelationshipCache
+2020-03-22 09:19:20.188+0000 INFO  [org.neo4j]: System memory information:
+    Total Physical memory: 11.92 GB
+    Free Physical memory: 7.08 GB
+    Committed virtual memory: 608.59 MB
+    Total swap space: 13.74 GB
+    Free swap space: 8.69 GB
+2020-03-22 09:19:20.209+0000 INFO  [org.neo4j]: JVM memory information:
+    Free  memory: 177.72 MB
+    Total memory: 229.00 MB
+    Max   memory: 2.65 GB
+    Garbage Collector: PS Scavenge: [PS Eden Space, PS Survivor Space]
+    Garbage Collector: PS MarkSweep: [PS Eden Space, PS Survivor Space, PS Old Gen]
+    Memory Pool: Code Cache (Non-heap memory): committed=13.06 MB, used=12.20 MB, max=240.00 MB, threshold=0.00 B
+    Memory Pool: Metaspace (Non-heap memory): committed=27.00 MB, used=26.49 MB, max=-1.00 B, threshold=0.00 B
+    Memory Pool: Compressed Class Space (Non-heap memory): committed=3.50 MB, used=3.39 MB, max=1.00 GB, threshold=0.00 B
+    Memory Pool: PS Eden Space (Heap memory): committed=93.00 MB, used=34.25 MB, max=999.00 MB, threshold=?
+    Memory Pool: PS Survivor Space (Heap memory): committed=8.00 MB, used=7.51 MB, max=8.00 MB, threshold=?
+    Memory Pool: PS Old Gen (Heap memory): committed=128.00 MB, used=9.52 MB, max=1.99 GB, threshold=0.00 B
+2020-03-22 09:19:20.213+0000 INFO  [org.neo4j]: Operating system information:
+    Operating System: Windows 10; version: 10.0; arch: amd64; cpus: 4
+    Process id: 2320@MTs-10064191L
+    Byte order: LITTLE_ENDIAN
+    Local timezone: Asia/Karachi
+2020-03-22 09:19:20.214+0000 INFO  [org.neo4j]: JVM information:
+    VM Name: Java HotSpot(TM) 64-Bit Server VM
+    VM Vendor: Oracle Corporation
+    VM Version: 25.151-b12
+    JIT compiler: HotSpot 64-Bit Tiered Compilers
+    VM Arguments: [-agentlib:jdwp=transport=dt_socket,suspend=y,address=localhost:65329, -ea, -Dfile.encoding=Cp1252]
+2020-03-22 09:19:20.215+0000 INFO  [org.neo4j]: Java classpath:
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/resolver-20050927.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/commons-compress-1.4.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/poi-ooxml-3.9.jar
+     [loader.0] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/charsets.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/protobuf-java-2.5.0.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/mybatis-spring-1.2.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/FastInfoset-1.2.12.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/lucene-core-3.6.2.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/uca-ebc-topology-3.4.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/asm-3.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/concurrentlinkedhashmap-lru-1.3.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/log-utils-3.3.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/woodstox-core-asl-4.1.2.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/hawtbuf-1.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-shell-1.9.9.jar
+     [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/ext/cldrdata.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jcl-over-slf4j-1.7.19.jar
+     [classpath] C:\Program Files\Java\jre1.8.0_151\lib\ext\nashorn.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-management-1.9.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/org.apache.servicemix.bundles.jline-0.9.94_1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jsr250-api-1.0.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/uca-expert-engine-3.4.5.jar
+     [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/ext/nashorn.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/xmlpull-1.1.3.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-core-3.1.3.RELEASE.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-jmx-1.9.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/antlr-2.7.7.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/geronimo-j2ee-management_1.1_spec-1.0.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/servlet-api-2.5-20081211.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-server-1.9.9-static-web.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/uca-ebc-topology-dataload-3.4.jar
+     [bootstrap] C:\Program Files\Java\jre1.8.0_151\classes
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/saaj-api-1.3.4.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/management-api-3.0.0-b012.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jbpm-bpmn2-5.5.0.Final.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/avro-1.7.7.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/stax-api-1.0.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/gmbal-api-only-3.1.0-b001.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/ecj-4.4.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/stax-api-1.0-2.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-lucene-index-1.9.9.jar
+     [classpath] C:\Program Files\Java\jre1.8.0_151\lib\ext\jaccess.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/bcprov-jdk16-140.jar
+     [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/ext/jfxrt.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/netty-3.7.0.Final.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jbpm-flow-5.5.0.Final.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/uca-common-4.0-UMB-1.1.8.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/commons-jexl-2.1.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-server-enterprise-1.9.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/commons-logging-1.1.1.jar
+     [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/ext/access-bridge-64.jar
+     [bootstrap + classpath] C:\Program Files\Java\jre1.8.0_151\lib\resources.jar
+     [classpath + loader.0] file:/C:/Users/usama.shameem/.eclipse/org.eclipse.platform_4.7.2_1709980481_win32_win32_x86_64/configuration/org.eclipse.osgi/412/0/.cp/
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/xpp3_min-1.1.4c.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/drools-decisiontables-5.6.0.Final.jar
+     [classpath] C:\Program Files\Java\jre1.8.0_151\lib\ext\sunmscapi.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-aop-3.1.3.RELEASE.jar
+     [classpath + loader.0] file:/E:/UCA/PTCL_WLL_Huawei/target/classes/
+     [classpath] C:\Program Files\Java\jre1.8.0_151\lib\ext\localedata.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/saaj-impl-1.3.20.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-consistency-check-1.9.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-rest-graphdb-1.9.9-HPE-SNAPSHOT.jar
+     [classpath + loader.0] file:/E:/UCA/PTCL_WLL_Huawei/lib/complex-string-utils-1.4.6.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/commons-pool-1.6.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/drools-core-5.6.0.Final.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/umb-adapter-fmk-1.1.5.jar
+     [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/ext/jaccess.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/commons-io-2.4.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/javax.xml.soap-api-1.3.5.jar
+     [classpath] C:\Program Files\Java\jre1.8.0_151\lib\ext\sunpkcs11.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jaxws-rt-2.2.8.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jackson-core-2.6.3.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jsr311-api-1.1.2.r612.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/dom4j-1.6.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jackson-mapper-asl-1.9.13.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/h2-1.3.174.jar
+     [bootstrap] C:\Program Files\Java\jre1.8.0_151\lib\sunrsasign.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-jdbc-3.1.3.RELEASE.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jersey-server-1.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/commons-codec-1.5.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jersey-multipart-1.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-cypher-1.9.9.jar
+     [classpath] C:\Program Files\Java\jre1.8.0_151\lib\ext\access-bridge-64.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/autopassj-common-8.2.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/mail-1.4.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/xbean-spring-3.11.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/xmlbeans-2.5.0.jar
+     [classpath] C:\Program Files\Java\jre1.8.0_151\lib\ext\zipfs.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jdbcappender-3.3.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-server-1.9.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/istack-commons-runtime-2.16.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/activemq-broker-5.9.0-nom-5.jar
+     [loader.0] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/rt.jar
+     [classpath + loader.0] file:/E:/UCA/PTCL_WLL_Huawei/lib/uca-evp-im-common-3.4.7.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/activemq-protobuf-1.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jsr181-api-1.0-MR1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-context-support-3.1.3.RELEASE.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jetty-naming-6.1.25.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/commons-net-3.3.jar
+     [classpath] C:\Program Files\Java\jre1.8.0_151\lib\ext\sunjce_provider.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-kernel-1.9.9-tests.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/stax-ex-1.7.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jaxb-api-2.2.7.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/slf4j-log4j12-1.7.7.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-context-3.1.3.RELEASE.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/xstream-1.4.3.jar
+     [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/ext/dnsns.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jaxws-api-2.2.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/geronimo-spec-jta-1.0.1B-rc4.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-test-3.1.3.RELEASE.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/activemq-kahadb-store-5.9.0-nom-5.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/autopassj-crypto-8.2.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/rhino-1.7R3.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/poi-ooxml-schemas-3.9.jar
+     [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/ext/sunjce_provider.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/mybatis-3.2.3.jar
+     [classpath] C:\Program Files\Java\jre1.8.0_151\lib\ext\cldrdata.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jersey-core-1.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jackson-annotations-2.6.3.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/antlr-runtime-3.3.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jaxb-impl-2.2.6.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/activation-1.1.jar
+     [loader.0] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/jfr.jar
+     [bootstrap + classpath] C:\Program Files\Java\jre1.8.0_151\lib\charsets.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/uca-eml-eval-3.4.2.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/mvel2-2.1.8.Final.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jbpm-flow-builder-5.5.0.Final.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-com-1.9.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/knowledge-internal-api-5.6.0.Final.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/server-api-1.9.9.jar
+     [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/ext/sunpkcs11.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-enterprise-1.9.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/config-0.5.2.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-ha-1.9.9.jar
+     [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/ext/zipfs.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jetty-6.1.25.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/scalalogging-slf4j_2.10-1.0.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-kernel-1.9.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-jms-3.1.3.RELEASE.jar
+     [classpath + loader.0] file:/C:/Users/usama.shameem/.eclipse/org.eclipse.platform_4.7.2_1709980481_win32_win32_x86_64/configuration/org.eclipse.osgi/413/0/.cp/
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/activemq-pool-5.9.0-nom-5.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/hazelcast-client-3.5.5.jar
+     [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/ext/sunec.jar
+     [classpath + loader.0] file:/E:/UCA/PTCL_WLL_Huawei/lib/uca-mediation-exec-mvp-mapper-keys-3.3.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-expression-3.1.3.RELEASE.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/activemq-openwire-legacy-5.9.0-nom-5.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-xml-1.5.10.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/antlr-3.3.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/drools-compiler-5.6.0.Final.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/aspectjrt-1.6.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/commons-beanutils-1.9.2.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jetty-plus-6.1.25.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-oxm-1.5.10.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-server-advanced-1.9.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/poi-3.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/rrd4j-2.0.7.jar
+     [bootstrap + classpath] C:\Program Files\Java\jre1.8.0_151\lib\jce.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/activemq-jaas-5.9.0-nom-5.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/commons-collections-3.2.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/commons-configuration-1.10.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jackson-core-asl-1.9.13.jar
+     [classpath] C:\Program Files\Java\jre1.8.0_151\lib\ext\jfxrt.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/hamcrest-core-1.3.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/knowledge-api-5.6.0.Final.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/xsom-20100725.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/uca-mediation-action-client-3.3.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-advanced-1.9.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/log4j-1.2.17.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/classworlds-1.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/junit-4.11.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/scala-reflect-2.10.0.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/javax.annotation-api-1.2-b03.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/relaxngDatatype-20020414.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/geronimo-jta_1.1_spec-1.1.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/autopassj-core-8.2.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-cluster-1.9.9.jar
+     [classpath] C:\Program Files\Java\jre1.8.0_151\lib\ext\dnsns.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/ha-api-3.1.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/xz-1.0.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-asm-3.1.3.RELEASE.jar
+     [loader.0] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/resources.jar
+     [bootstrap + classpath] C:\Program Files\Java\jre1.8.0_151\lib\jfr.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/activemq-client-5.9.0-nom-5.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-orm-3.1.3.RELEASE.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-tx-3.1.3.RELEASE.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/stax2-api-3.1.1.jar
+     [bootstrap + classpath] C:\Program Files\Java\jre1.8.0_151\lib\jsse.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/commons-lang-2.6.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/janino-2.5.10.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/opencsv-2.3.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/hsqldb-1.8.0.10.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/aspectjweaver-1.6.1.jar
+     [loader.0] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/jsse.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/geronimo-jms_1.1_spec-1.1.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/antlr4-runtime-4.7.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jaxb-core-2.2.7.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jackson-jaxrs-1.9.7.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/hazelcast-3.5.5.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/policy-2.3.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jersey-client-1.9.jar
+     [classpath] C:\Program Files\Java\jre1.8.0_151\lib\ext\sunec.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jackson-databind-2.6.3.jar
+     [bootstrap + classpath] C:\Program Files\Java\jre1.8.0_151\lib\rt.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-backup-1.9.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/spring-beans-3.1.3.RELEASE.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/mimepull-1.9.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/neo4j-community-1.9.9.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/activemq-jms-pool-5.9.0-nom-5.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/slf4j-api-1.7.7.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/xml-apis-1.0.b2.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/streambuffer-1.5.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/paranamer-2.3.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/commons-dbcp-1.4.jar
+     [loader.0] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/jce.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/scala-library-2.10.5.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/stringtemplate-3.2.1.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/jetty-util-6.1.25.jar
+     [classpath + loader.0] file:/E:/UCA/PTCL_WLL_Huawei/lib/uca-mediation-temip-mvp-mapper-keys-3.3.2.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/activemq-spring-5.9.0-nom-5.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/snappy-java-1.0.5.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/drools-templates-5.6.0.Final.jar
+     [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/ext/sunmscapi.jar
+     [loader.1] file:/C:/Program%20Files/Java/jre1.8.0_151/lib/ext/localedata.jar
+     [classpath + loader.0] file:/C:/UCA-EBC-DEV/3.4/lib/aopalliance-1.0.jar
+     [classpath + loader.0] file:/E:/UCA/PTCL_WLL_Huawei/lib/uca-evp-pd-fwk-3.4.7.jar
+2020-03-22 09:19:20.300+0000 INFO  [org.neo4j]: Library path:
+    C:\Program Files\Java\jre1.8.0_151\bin
+    C:\Windows\Sun\Java\bin
+    C:\Windows\System32
+    C:\Windows
+    C:\Program Files\Java\jre7\bin
+    C:\ProgramData\Oracle\Java\javapath
+    C:\Windows\System32
+    C:\Windows
+    C:\Windows\System32\wbem
+    C:\Windows\System32\WindowsPowerShell\v1.0
+    C:\Windows\System32\OpenSSH
+    C:\UCA-EBC-DEV\3.4\3pp\ant\bin
+    D:\app\USAMA\product\11.2.0\client_1
+    D:\app\USAMA\product\11.2.0\client_1\bin
+    C:\Users\usama.shameem\AppData\Local\Microsoft\WindowsApps
+    E:\UCA\PTCL_WLL_Huawei
+    E:\UCA\PTCL_WLL_Huawei
+2020-03-22 09:19:20.309+0000 INFO  [org.neo4j]: System.properties:
+    sun.java.launcher = SUN_STANDARD
+    uca.ebc.topology.https.enabled = false
+    sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+    collector.measurementrate.enabled = false
+    engine.logger.interval = 1000
+    sun.desktop = windows
+    uca.ebc.jms.broker.port = 61667
+    user.name = Usama.Shameem
+    user.language = en
+    sun.boot.library.path = C:\Program Files\Java\jre1.8.0_151\bin
+    user.timezone = Asia/Karachi
+    scenario.logger.maxbackupindex = 10
+    sun.arch.data.model = 64
+    sun.cpu.isalist = amd64
+    sun.jnu.encoding = Cp1252
+    file.encoding.pkg = sun.io
+    file.separator = \
+    collector.logger.enabled = true
+    user.country = US
+    scenario.logger.enabled = false
+    scenario.logger.pattern = [%d{ABSOLUTE}][%-5p][%-10t][%-5c] %m%n
+    uca.ebc.topology.serverhost = localhost
+    uca.ebc.topology.location = neo4j
+    path.separator = ;
+    user.variant = 
+    sun.io.unicode.encoding = UnicodeLittle
+    awt.toolkit = sun.awt.windows.WToolkit
+    user.script = 
+    user.home = C:\Users\usama.shameem
+    uca.ebc.topology = embedded
+    sun.java.command = org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 65328 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames com.hp.uca.expert.vp.pd.Eagle_BTS_Outage_Huawei_NTDD.UCA_Eagle_BTS_Outage_Huawei_NTDD
+    engine.logger.enabled = false
+    uca.ebc.topology.webPort = 7475
+    sun.cpu.endian = little
+    sun.os.patch.level = 
+    scenario.logger.maxfilesize = 10MB
+    user.dir = E:\UCA\PTCL_WLL_Huawei
+    uca.ebc.serverhost = localhost
+    collector.messages.validation = true
+    uca.ebc.jmx.rmi.port = 1101
+    file.encoding = Cp1252
+    neo4j.home = .\\neo4j
+2020-03-22 09:19:20.311+0000 INFO  [org.neo4j]: Network information:
+    Interface Software Loopback Interface 1:
+        address: 127.0.0.1
+        address: 0:0:0:0:0:0:0:1
+    Interface WAN Miniport (Network Monitor):
+    Interface Microsoft 6to4 Adapter:
+    Interface WAN Miniport (IPv6):
+    Interface Bluetooth Device (Personal Area Network) #3:
+    Interface WAN Miniport (PPPOE):
+    Interface WAN Miniport (IKEv2):
+    Interface Microsoft Kernel Debug Network Adapter:
+    Interface Microsoft IP-HTTPS Platform Adapter:
+    Interface Intel(R) Dual Band Wireless-AC 8260 #2:
+        address: 192.168.1.10
+        address: fe80:0:0:0:9112:1a91:4094:fae1%wlan0
+    Interface Intel(R) Ethernet Connection I219-V:
+        address: fe80:0:0:0:3528:d64a:565a:277a%eth4
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #2:
+    Interface Intel(R) Ethernet Connection I219-LM:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter:
+    Interface Bluetooth Device (Personal Area Network):
+    Interface Bluetooth Device (RFCOMM Protocol TDI):
+    Interface WAN Miniport (L2TP):
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #3:
+    Interface WAN Miniport (PPTP):
+    Interface Microsoft Teredo Tunneling Adapter:
+    Interface Realtek PCIe GBE Family Controller:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #5:
+        address: fe80:0:0:0:d0a5:9795:522c:f2c9%wlan4
+    Interface Intel(R) Dual Band Wireless-AC 8260:
+    Interface Broadcom 802.11n Network Adapter:
+    Interface WAN Miniport (SSTP):
+    Interface WAN Miniport (IP):
+    Interface RAS Async Adapter:
+    Interface Bluetooth Device (Personal Area Network) #2:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #4:
+        address: fe80:0:0:0:e0e2:82e9:47e7:aba6%wlan7
+    Interface Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64:
+        address: 10.100.81.199
+        address: fe80:0:0:0:805f:e678:54d:c5b8%eth10
+    Interface Intel(R) Ethernet Connection I219-V-WFP Native MAC Layer LightWeight Filter-0000:
+    Interface Intel(R) Ethernet Connection I219-V-Kaspersky Lab NDIS 6 Filter-0000:
+    Interface Intel(R) Ethernet Connection I219-V-QoS Packet Scheduler-0000:
+    Interface Intel(R) Ethernet Connection I219-V-WFP 802.3 MAC Layer LightWeight Filter-0000:
+    Interface Intel(R) Dual Band Wireless-AC 8260 #2-WFP Native MAC Layer LightWeight Filter-0000:
+    Interface Intel(R) Dual Band Wireless-AC 8260 #2-Virtual WiFi Filter Driver-0000:
+    Interface Intel(R) Dual Band Wireless-AC 8260 #2-Native WiFi Filter Driver-0000:
+    Interface Intel(R) Dual Band Wireless-AC 8260 #2-Kaspersky Lab NDIS 6 Filter-0000:
+    Interface Intel(R) Dual Band Wireless-AC 8260 #2-QoS Packet Scheduler-0000:
+    Interface Intel(R) Dual Band Wireless-AC 8260 #2-WFP 802.3 MAC Layer LightWeight Filter-0000:
+    Interface WAN Miniport (IP)-WFP Native MAC Layer LightWeight Filter-0000:
+    Interface WAN Miniport (IP)-Kaspersky Lab NDIS 6 Filter-0000:
+    Interface WAN Miniport (IP)-QoS Packet Scheduler-0000:
+    Interface WAN Miniport (IPv6)-WFP Native MAC Layer LightWeight Filter-0000:
+    Interface WAN Miniport (IPv6)-Kaspersky Lab NDIS 6 Filter-0000:
+    Interface WAN Miniport (IPv6)-QoS Packet Scheduler-0000:
+    Interface WAN Miniport (Network Monitor)-WFP Native MAC Layer LightWeight Filter-0000:
+    Interface WAN Miniport (Network Monitor)-Kaspersky Lab NDIS 6 Filter-0000:
+    Interface WAN Miniport (Network Monitor)-QoS Packet Scheduler-0000:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #4-WFP Native MAC Layer LightWeight Filter-0000:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #4-Native WiFi Filter Driver-0000:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #4-Kaspersky Lab NDIS 6 Filter-0000:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #4-QoS Packet Scheduler-0000:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #4-WFP 802.3 MAC Layer LightWeight Filter-0000:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #5-WFP Native MAC Layer LightWeight Filter-0000:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #5-Native WiFi Filter Driver-0000:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #5-Kaspersky Lab NDIS 6 Filter-0000:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #5-QoS Packet Scheduler-0000:
+    Interface Microsoft Wi-Fi Direct Virtual Adapter #5-WFP 802.3 MAC Layer LightWeight Filter-0000:
+    Interface Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64-WFP Native MAC Layer LightWeight Filter-0000:
+    Interface Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64-Kaspersky Lab NDIS 6 Filter-0000:
+    Interface Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64-QoS Packet Scheduler-0000:
+    Interface Cisco AnyConnect Secure Mobility Client Virtual Miniport Adapter for Windows x64-WFP 802.3 MAC Layer LightWeight Filter-0000:
+2020-03-22 09:19:20.694+0000 INFO  [org.neo4j]: --- INITIALIZED diagnostics END ---
+2020-03-22 09:19:21.025+0000 INFO  [org.neo4j]: Creating new db @ .\neo4j\neostore
+2020-03-22 09:19:21.354+0000 INFO  [org.neo4j]: [.\neo4j\neostore.nodestore.db] brickCount=0 brickSize=482337b mappedMem=48234496b (storeSize=0b)
+2020-03-22 09:19:21.419+0000 INFO  [org.neo4j]: .\neo4j\neostore.nodestore.db hit=1 miss=0 switches=0 ooe=0
+2020-03-22 09:19:22.601+0000 INFO  [org.neo4j]: [.\neo4j\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2020-03-22 09:19:22.607+0000 INFO  [org.neo4j]: [.\neo4j\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2020-03-22 09:19:22.630+0000 INFO  [org.neo4j]: .\neo4j\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:19:22.739+0000 INFO  [org.neo4j]: .\neo4j\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:19:22.838+0000 INFO  [org.neo4j]: [.\neo4j\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2020-03-22 09:19:22.839+0000 INFO  [org.neo4j]: [.\neo4j\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2020-03-22 09:19:22.840+0000 INFO  [org.neo4j]: [.\neo4j\neostore.propertystore.db.strings] brickCount=0 brickSize=147840b mappedMem=147849216b (storeSize=128b)
+2020-03-22 09:19:22.841+0000 INFO  [org.neo4j]: [.\neo4j\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2020-03-22 09:19:22.844+0000 INFO  [org.neo4j]: [.\neo4j\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2020-03-22 09:19:22.845+0000 INFO  [org.neo4j]: [.\neo4j\neostore.propertystore.db.arrays] brickCount=0 brickSize=167680b mappedMem=167772160b (storeSize=128b)
+2020-03-22 09:19:22.849+0000 INFO  [org.neo4j]: [.\neo4j\neostore.propertystore.db] brickCount=0 brickSize=1740614b mappedMem=174063616b (storeSize=0b)
+2020-03-22 09:19:22.851+0000 INFO  [org.neo4j]: [.\neo4j\neostore.relationshipstore.db] brickCount=0 brickSize=2128599b mappedMem=212860928b (storeSize=0b)
+2020-03-22 09:19:22.852+0000 INFO  [org.neo4j]: [.\neo4j\neostore.nodestore.db] brickCount=0 brickSize=48231b mappedMem=48234496b (storeSize=9b)
+2020-03-22 09:19:22.853+0000 INFO  [org.neo4j]: [.\neo4j\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2020-03-22 09:19:22.969+0000 INFO  [org.neo4j]: .\neo4j\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:19:23.101+0000 INFO  [org.neo4j]: .\neo4j\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:19:23.241+0000 INFO  [org.neo4j]: .\neo4j\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:19:23.400+0000 INFO  [org.neo4j]: .\neo4j\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:19:23.538+0000 INFO  [org.neo4j]: .\neo4j\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:19:23.662+0000 INFO  [org.neo4j]: .\neo4j\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:19:23.785+0000 INFO  [org.neo4j]: .\neo4j\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:19:23.909+0000 INFO  [org.neo4j]: .\neo4j\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:19:24.066+0000 INFO  [org.neo4j]: .\neo4j\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:19:24.197+0000 INFO  [org.neo4j]: .\neo4j\neostore hit=0 miss=8 switches=0 ooe=0
+2020-03-22 09:19:24.365+0000 INFO  [org.neo4j]: [.\neo4j\neostore.relationshiptypestore.db.names] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2020-03-22 09:19:24.366+0000 INFO  [org.neo4j]: [.\neo4j\neostore.relationshiptypestore.db] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2020-03-22 09:19:24.367+0000 INFO  [org.neo4j]: [.\neo4j\neostore.propertystore.db.strings] brickCount=0 brickSize=147840b mappedMem=147849216b (storeSize=128b)
+2020-03-22 09:19:24.368+0000 INFO  [org.neo4j]: [.\neo4j\neostore.propertystore.db.index.keys] brickCount=0 brickSize=0b mappedMem=0b (storeSize=38b)
+2020-03-22 09:19:24.368+0000 INFO  [org.neo4j]: [.\neo4j\neostore.propertystore.db.index] brickCount=0 brickSize=0b mappedMem=0b (storeSize=0b)
+2020-03-22 09:19:24.369+0000 INFO  [org.neo4j]: [.\neo4j\neostore.propertystore.db.arrays] brickCount=0 brickSize=167680b mappedMem=167772160b (storeSize=128b)
+2020-03-22 09:19:24.370+0000 INFO  [org.neo4j]: [.\neo4j\neostore.propertystore.db] brickCount=0 brickSize=1740614b mappedMem=174063616b (storeSize=0b)
+2020-03-22 09:19:24.370+0000 INFO  [org.neo4j]: [.\neo4j\neostore.relationshipstore.db] brickCount=0 brickSize=2128599b mappedMem=212860928b (storeSize=0b)
+2020-03-22 09:19:24.371+0000 INFO  [org.neo4j]: [.\neo4j\neostore.nodestore.db] brickCount=0 brickSize=48231b mappedMem=48234496b (storeSize=9b)
+2020-03-22 09:19:24.372+0000 INFO  [org.neo4j]: [.\neo4j\neostore] brickCount=0 brickSize=0b mappedMem=0b (storeSize=54b)
+2020-03-22 09:19:24.423+0000 INFO  [org.neo4j]: Opened logical log [.\neo4j\nioneo_logical.log.1] version=0, lastTxId=1 (clean)
+2020-03-22 09:19:24.498+0000 INFO  [org.neo4j]: TM new log: tm_tx_log.1
+2020-03-22 09:19:24.566+0000 INFO  [org.neo4j]: Kernel health set to OK
+2020-03-22 09:19:24.730+0000 INFO  [org.neo4j]: BackupServer communication server started and bound to 0.0.0.0/0.0.0.0:6362
+2020-03-22 09:19:24.763+0000 INFO  [org.neo4j]: Opened logical log [.\neo4j\index\lucene.log.1] version=0, lastTxId=1 (clean)
+2020-03-22 09:19:24.821+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:Versions START ---
+2020-03-22 09:19:24.821+0000 INFO  [org.neo4j]: Graph Database: org.neo4j.kernel.EmbeddedGraphDatabase StoreId[time:1584868761027, id:-3814393445603150721, store version: 13561656364791302]
+2020-03-22 09:19:24.822+0000 INFO  [org.neo4j]: Kernel version: Neo4j - Graph Database Kernel 1.9.9
+2020-03-22 09:19:24.822+0000 INFO  [org.neo4j]: Neo4j component versions:
+2020-03-22 09:19:24.824+0000 INFO  [org.neo4j]:   Neo4j - Graph Database Kernel 1.9.9
+2020-03-22 09:19:24.824+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:Versions END ---
+2020-03-22 09:19:24.827+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_VERSIONS START ---
+2020-03-22 09:19:24.828+0000 INFO  [org.neo4j]: Store versions:
+    Store versions:
+      NeoStore v0.A.0
+      NodeStore v0.A.0
+      RelationshipStore v0.A.0
+      RelationshipTypeStore v0.A.0
+      PropertyStore v0.A.0
+      PropertyIndexStore v0.A.0
+      StringPropertyStore v0.A.0
+      ArrayPropertyStore v0.A.0
+2020-03-22 09:19:24.828+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_VERSIONS END ---
+2020-03-22 09:19:24.828+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_ID_USAGE START ---
+2020-03-22 09:19:24.828+0000 INFO  [org.neo4j]: Id usage:
+    Id usage:
+      NodeStore: used=1 high=0
+      RelationshipStore: used=0 high=-1
+      RelationshipTypeStore: used=0 high=-1
+      PropertyStore: used=0 high=-1
+      PropertyIndexStore: used=0 high=-1
+      StringPropertyStore: used=1 high=0
+      ArrayPropertyStore: used=1 high=0
+2020-03-22 09:19:24.829+0000 INFO  [org.neo4j]: --- STARTED diagnostics for NEO_STORE_ID_USAGE END ---
+2020-03-22 09:19:24.829+0000 INFO  [org.neo4j]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS START ---
+2020-03-22 09:19:24.829+0000 INFO  [org.neo4j]: --- STARTED diagnostics for PERSISTENCE_WINDOW_POOL_STATS END ---
+2020-03-22 09:19:24.829+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles START ---
+2020-03-22 09:19:24.831+0000 INFO  [org.neo4j]: Disk space on partition (Total / Free / Free %): 143627644928 / 22165004288 / 15
+Storage files: (filename : modification date - size)
+      active_tx_log: 2020-03-22T14:19:24+0500 - 11.00 B
+      index:
+        lucene-store.db: 2020-03-22T14:19:24+0500 - 40.00 B
+        lucene.log.1: 2020-03-22T14:19:24+0500 - 16.00 B
+        lucene.log.active: 2020-03-22T14:19:24+0500 - 4.00 B
+      - Total: 2020-03-22T14:19:24+0500 - 60.00 B
+      lock: 2020-03-22T14:19:20+0500 - 0.00 B
+      messages.log: 2020-03-22T14:19:19+0500 - 35.54 kB
+      neostore: 2020-03-22T14:19:24+0500 - 54.00 B
+      neostore.id: 2020-03-22T14:19:24+0500 - 9.00 B
+      neostore.nodestore.db: 2020-03-22T14:19:24+0500 - 9.00 B
+      neostore.nodestore.db.id: 2020-03-22T14:19:24+0500 - 9.00 B
+      neostore.propertystore.db: 2020-03-22T14:19:24+0500 - 0.00 B
+      neostore.propertystore.db.arrays: 2020-03-22T14:19:24+0500 - 128.00 B
+      neostore.propertystore.db.arrays.id: 2020-03-22T14:19:23+0500 - 9.00 B
+      neostore.propertystore.db.id: 2020-03-22T14:19:23+0500 - 9.00 B
+      neostore.propertystore.db.index: 2020-03-22T14:19:24+0500 - 0.00 B
+      neostore.propertystore.db.index.id: 2020-03-22T14:19:23+0500 - 9.00 B
+      neostore.propertystore.db.index.keys: 2020-03-22T14:19:24+0500 - 38.00 B
+      neostore.propertystore.db.index.keys.id: 2020-03-22T14:19:23+0500 - 9.00 B
+      neostore.propertystore.db.strings: 2020-03-22T14:19:24+0500 - 128.00 B
+      neostore.propertystore.db.strings.id: 2020-03-22T14:19:23+0500 - 9.00 B
+      neostore.relationshipstore.db: 2020-03-22T14:19:24+0500 - 0.00 B
+      neostore.relationshipstore.db.id: 2020-03-22T14:19:23+0500 - 9.00 B
+      neostore.relationshiptypestore.db: 2020-03-22T14:19:24+0500 - 0.00 B
+      neostore.relationshiptypestore.db.id: 2020-03-22T14:19:23+0500 - 9.00 B
+      neostore.relationshiptypestore.db.names: 2020-03-22T14:19:24+0500 - 38.00 B
+      neostore.relationshiptypestore.db.names.id: 2020-03-22T14:19:23+0500 - 9.00 B
+      nioneo_logical.log.1: 2020-03-22T14:19:24+0500 - 16.00 B
+      nioneo_logical.log.active: 2020-03-22T14:19:24+0500 - 4.00 B
+      store_lock: 2020-03-22T14:19:20+0500 - 0.00 B
+      tm_tx_log.1: 2020-03-22T14:19:24+0500 - 0.00 B
+2020-03-22 09:19:24.842+0000 INFO  [org.neo4j]: --- STARTED diagnostics for KernelDiagnostics:StoreFiles END ---
+2020-03-22 09:19:24.845+0000 INFO  [org.neo4j]: GC Monitor started. 
+2020-03-22 09:19:24.849+0000 INFO  [org.neo4j]: Database is now ready
+2020-03-22 09:19:24.889+0000 INFO  [org.neo4j]: Setting startup timeout to: 120000ms based on -1
+2020-03-22 09:19:24.920+0000 INFO  [org.neo4j]: Starting HTTP on port :7475 with 40 threads available
+2020-03-22 09:19:25.791+0000 INFO  [org.neo4j]: --- SERVER STARTED START ---
+2020-03-22 09:19:25.791+0000 INFO  [org.neo4j]: --- STARTED diagnostics for org.neo4j.server.configuration.Configurator START ---
+2020-03-22 09:19:25.792+0000 INFO  [org.neo4j]: Server configuration:
+    org.neo4j.server.webserver.address = 0.0.0.0
+    org.neo4j.server.database.location = .\neo4j
+    org.neo4j.server.webserver.port = 7475
+2020-03-22 09:19:25.793+0000 INFO  [org.neo4j]: --- STARTED diagnostics for org.neo4j.server.configuration.Configurator END ---
+2020-03-22 09:19:25.798+0000 INFO  [org.neo4j]: Mounted discovery module at [/]
+2020-03-22 09:19:25.851+0000 INFO  [org.neo4j]: Loaded server plugin "LoadCsv"
+2020-03-22 09:19:25.853+0000 INFO  [org.neo4j]:   GraphDatabaseService.load_csv: Load data from local CSV files
+2020-03-22 09:19:25.853+0000 INFO  [org.neo4j]: Mounted REST API at [/db/data]
+2020-03-22 09:19:25.856+0000 INFO  [org.neo4j]: Mounted management API at [/db/manage]
+2020-03-22 09:19:25.934+0000 INFO  [org.neo4j]: Mounted webadmin at [/webadmin]
+2020-03-22 09:19:25.998+0000 INFO  [org.neo4j]: Mounting static content at [/webadmin] from [webadmin-html]
+2020-03-22 09:19:27.964+0000 INFO  [org.neo4j]: Remote interface ready and available at [http://0.0.0.0:7475/]
+2020-03-22 09:19:27.964+0000 INFO  [org.neo4j]: --- SERVER STARTED END ---
+2020-03-22 09:19:32.004+0000 INFO  [org.neo4j]: GC Monitor: Application threads blocked for an additional 148ms [total block time: 0.148s]
+2020-03-22 09:21:22.948+0000 INFO  [org.neo4j]: Shutdown started
+2020-03-22 09:21:22.961+0000 INFO  [org.neo4j]: Database is no longer ready
+2020-03-22 09:21:22.966+0000 INFO  [org.neo4j]: GC Monitor stopped. 
+2020-03-22 09:21:23.179+0000 INFO  [org.neo4j]: Closed log .\neo4j\index\lucene.log
+2020-03-22 09:21:23.371+0000 INFO  [org.neo4j]: TM shutting down
+2020-03-22 09:21:23.386+0000 INFO  [org.neo4j]: Successfully shutdown database.
+2020-03-22 09:21:23.452+0000 INFO  [org.neo4j]: Closed log .\neo4j\nioneo_logical.log
+2020-03-22 09:21:23.475+0000 INFO  [org.neo4j]: .\neo4j\neostore.relationshiptypestore.db.names hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:21:23.606+0000 INFO  [org.neo4j]: .\neo4j\neostore.relationshiptypestore.db hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:21:23.764+0000 INFO  [org.neo4j]: .\neo4j\neostore.propertystore.db.strings hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:21:23.887+0000 INFO  [org.neo4j]: .\neo4j\neostore.propertystore.db.index.keys hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:21:24.011+0000 INFO  [org.neo4j]: .\neo4j\neostore.propertystore.db.index hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:21:24.135+0000 INFO  [org.neo4j]: .\neo4j\neostore.propertystore.db.arrays hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:21:24.400+0000 INFO  [org.neo4j]: .\neo4j\neostore.propertystore.db hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:21:24.531+0000 INFO  [org.neo4j]: .\neo4j\neostore.relationshipstore.db hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:21:24.671+0000 INFO  [org.neo4j]: .\neo4j\neostore.nodestore.db hit=0 miss=0 switches=0 ooe=0
+2020-03-22 09:21:24.803+0000 INFO  [org.neo4j]: .\neo4j\neostore hit=0 miss=15 switches=0 ooe=0
+2020-03-22 09:21:24.902+0000 INFO  [org.neo4j]: NeoStore closed
+2020-03-22 09:21:24.903+0000 INFO  [org.neo4j]: --- STOPPING diagnostics START ---
+2020-03-22 09:21:24.903+0000 INFO  [org.neo4j]: --- STOPPING diagnostics END ---

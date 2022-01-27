@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<filters xmlns="http://hp.com/uca/expert/filter">
+	<topFilter name="Problem_Ufone_MW_Notification_10Minute_Alarms"
+		tagsGroup="ProblemDetection,AvailableTroubleTickets">
+		<anyCondition>
+			<anyCondition tag="PATTERN_Triggers">
+				<anyCondition
+					tag="Trigger,SubAlarm,ComputeProblemEntityMappers=retrieveNE_Name																				
+	                ,ProblemAlarm.Creation.ReferenceAlarm=Trigger
+	                ,Customized.defaultAlarmClassification=Early-Warning
+	                ,Customized.Frd_Name=retrieve_PE_Friendly_name
+	                ,Customized.Region_Name=retrieve_PE_Region
+	                ,Customized.Ne_Mod=retrieve_PE_NE_Model
+	                ,Customized.Al_Name=retrieveAlarmName_custom
+	                ,Customized.Aln_Target=retrieve_PE_Alarm_Name_Target
+	                ,Customized.Parsing_Logic=retrieve_PE_Parsing_Logic
+	                ,ProblemAlarm.Clearance.Condition=AllAreClearedOrTerminated
+	                ,Customized.defaultFC=UNOC.FO.TXN
+	                ,ProblemAlarm.Termination.Policy=ToAll
+	                ,Customized.ExternalScript=/home/hpossadm/scripts/notify_early_warning.pl
+	                ,Customized.ExternalScriptParameter=$[dqm]${Event.mapper.retrieveID}$[eq]$[eq]FC$[eq]${Trigger.mapper.retrieveFC_custom}$[eq]$[eq]SA$[eq]${Trigger.mapper.retrieveSA_custom}$[eq]$[eq]NE_Name$[eq]${Trigger.mapper.retrieveNE_Name_custom}$[eq]$[eq]Alarm_Name$[eq]${Event.mapper.retrieveAlarmName_custom}$[eq]$[eq]NE_ID$[eq]${Trigger.mapper.retrieveNE_id_custom}$[eq]$[eq]Domain$[eq]WLL$[eq]$[eq]OC_Name$[eq]${Trigger.mapper.retrieveOC}$[dqm]              	
+	                ">
+					<allCondition>
+						<stringFilterStatement>
+	                		<fieldName>additionalText</fieldName>
+	                		<operator>matches</operator>
+	                		<fieldValue>([\d\D]*)sp=(12305|12306|174|236)=([\d\D]*)</fieldValue>
+	                	</stringFilterStatement>
+						
+	                <anyCondition>
+						<stringFilterStatement>
+							<fieldName>additionalText</fieldName>
+							<operator>contains</operator>
+							<fieldValue>Low Battery</fieldValue>
+						</stringFilterStatement>
+							<stringFilterStatement>
+							<fieldName>additionalText</fieldName>
+							<operator>contains</operator>
+							<fieldValue>DC Low</fieldValue>
+						</stringFilterStatement>
+							<stringFilterStatement>
+							<fieldName>additionalText</fieldName>
+							<operator>contains</operator>
+							<fieldValue>Battery Low</fieldValue>
+						</stringFilterStatement>
+					</anyCondition>
+					
+	                <anyCondition>
+						<stringFilterStatement>
+							<fieldName>ci</fieldName>
+							<operator>doesNotContain</operator>
+							<fieldValue>VIP</fieldValue>
+						</stringFilterStatement>
+							<stringFilterStatement>
+							<fieldName>ci</fieldName>
+							<operator>doesNotContain</operator>
+							<fieldValue>Hub Site</fieldValue>
+						</stringFilterStatement>
+					</anyCondition>
+						
+						<stringFilterStatement>
+							<fieldName>additionalText</fieldName>
+							<operator>doesNotContain</operator>
+							<fieldValue>TEST</fieldValue>
+						</stringFilterStatement> 
+						<stringFilterStatement>
+							<fieldName>additionalText</fieldName>
+							<operator>doesNotContain</operator>
+							<fieldValue>NLOD</fieldValue>
+						</stringFilterStatement>
+						
+						<!-- In case of Outage -->
+                        <anyCondition>
+							<notCondition>
+								<isPresentFilterStatement>
+									<fieldName>changeId</fieldName>
+								</isPresentFilterStatement>
+							</notCondition>
+							<notCondition>
+								<stringFilterStatement>
+									<fieldName>changeId</fieldName>
+									<operator>matches</operator>
+									<fieldValue>\S+</fieldValue>
+								</stringFilterStatement>
+							</notCondition>
+						</anyCondition>
+						
+						<!-- Exclude all PA alarms -->
+						<notCondition>
+							<stringFilterStatement>
+								<fieldName>userText</fieldName>
+								<operator>matches</operator>
+								<fieldValue><![CDATA[(?s).*<action>UCA EBC .*</action><trigger>.*</trigger><group>.*</group>.*]]></fieldValue>
+							</stringFilterStatement>
+						</notCondition>
+					</allCondition>
+				</anyCondition>
+			</anyCondition>
+
+			<anyCondition tag="PATTERN_ProblemAlarms">
+				<anyCondition tag="ProblemAlarm">
+					<allCondition>
+						<stringFilterStatement>
+							<fieldName>userText</fieldName>
+							<operator>matches</operator>
+							<fieldValue><![CDATA[(?s).*<trigger>.*</trigger><group><p>Problem_Ufone_MW_Notification_10Minute_Alarms</p>.*</group>.*]]></fieldValue>
+						</stringFilterStatement>
+					</allCondition>
+				</anyCondition>
+			</anyCondition>
+		</anyCondition>
+	</topFilter>
+
+</filters>

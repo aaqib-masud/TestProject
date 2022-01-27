@@ -1,0 +1,1264 @@
+<object-stream>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing [1]</activationId>
+  <rule>Rule - Regular tick processing</rule>
+  <declarations>tickFlag=id=tick val=false desc=Recurrent tick(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing [1]</activationId>
+  <rule>Rule - Regular tick processing</rule>
+  <declarations>tickFlag=id=tick val=false desc=Recurrent tick(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [New Alarm] =&gt; potential groups declaration [6]</activationId>
+  <rule>Rule - [New Alarm] =&gt; potential groups declaration</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 11, t=2020-03-22T14:19:34.430+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=true, avc=false, sc=false, ret=false(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>6</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 11, t=2020-03-22T14:19:34.430+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=true, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [New Alarm] =&gt; potential groups declaration [6]</activationId>
+  <rule>Rule - [New Alarm] =&gt; potential groups declaration</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 11, t=2020-03-22T14:19:34.430+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=true, avc=false, sc=false, ret=false(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [6]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 11, t=2020-03-22T14:19:34.430+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>6</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 11, t=2020-03-22T14:19:34.430+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [New Alarm] =&gt; potential groups declaration [6]</activationId>
+  <rule>Rule - [New Alarm] =&gt; potential groups declaration</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 11, t=2020-03-22T14:19:34.430+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [6]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 11, t=2020-03-22T14:19:34.430+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [6]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 11, t=2020-03-22T14:19:34.430+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [6]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 11, t=2020-03-22T14:19:34.430+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>6</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 11, t=2020-03-22T14:19:34.430+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [6]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 11, t=2020-03-22T14:19:34.430+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [6]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 11, t=2020-03-22T14:19:34.430+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(6)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [New Alarm] =&gt; potential groups declaration [7]</activationId>
+  <rule>Rule - [New Alarm] =&gt; potential groups declaration</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=true, avc=false, sc=false, ret=false(7)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>7</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=true, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [New Alarm] =&gt; potential groups declaration [7]</activationId>
+  <rule>Rule - [New Alarm] =&gt; potential groups declaration</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=true, avc=false, sc=false, ret=false(7)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [7]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(7)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>7</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [New Alarm] =&gt; potential groups declaration [7]</activationId>
+  <rule>Rule - [New Alarm] =&gt; potential groups declaration</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(7)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [7]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(7)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [7]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(7)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [7]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(7)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>7</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [7]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(7)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing for Group [8, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [Group Updated] =&gt; find new alarms and new events  [8]</activationId>
+  <rule>Rule - [Group Updated] =&gt; find new alarms and new events </rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>8</factId>
+  <objectToString>Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [Group Updated] =&gt; find new alarms and new events  [9]</activationId>
+  <rule>Rule - [Group Updated] =&gt; find new alarms and new events </rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>9</factId>
+  <objectToString>Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [Navigation update] =&gt; Recompute Navigation [7, 5]</activationId>
+  <rule>Rule - [Navigation update] =&gt; Recompute Navigation</rule>
+  <declarations>event=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(7)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>7</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [7]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(7)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [Group Updated] =&gt; find new alarms and new events  [9]</activationId>
+  <rule>Rule - [Group Updated] =&gt; find new alarms and new events </rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [Group Updated] =&gt; find new alarms and new events  [9]</activationId>
+  <rule>Rule - [Group Updated] =&gt; find new alarms and new events </rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [Group Updated] =&gt; find new alarms and new events  [8]</activationId>
+  <rule>Rule - [Group Updated] =&gt; find new alarms and new events </rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [Group Updated] =&gt; find new alarms and new events  [8]</activationId>
+  <rule>Rule - [Group Updated] =&gt; find new alarms and new events </rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [Navigation update] =&gt; Recompute Navigation [7, 5]</activationId>
+  <rule>Rule - [Navigation update] =&gt; Recompute Navigation</rule>
+  <declarations>event=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(7)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>7</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [Navigation update] =&gt; Recompute Navigation [7, 5]</activationId>
+  <rule>Rule - [Navigation update] =&gt; Recompute Navigation</rule>
+  <declarations>event=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1, t=2020-03-22T14:19:49.554+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(7)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing for Group [8, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing for Group [8, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [New Alarm] =&gt; potential groups declaration [10]</activationId>
+  <rule>Rule - [New Alarm] =&gt; potential groups declaration</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=true, avc=false, sc=false, ret=false(10)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>10</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=true, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [New Alarm] =&gt; potential groups declaration [10]</activationId>
+  <rule>Rule - [New Alarm] =&gt; potential groups declaration</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=true, avc=false, sc=false, ret=false(10)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [10]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(10)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>10</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [New Alarm] =&gt; potential groups declaration [10]</activationId>
+  <rule>Rule - [New Alarm] =&gt; potential groups declaration</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(10)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [10]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(10)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [10]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(10)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing for Group [8, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing [1]</activationId>
+  <rule>Rule - Regular tick processing</rule>
+  <declarations>tickFlag=id=tick val=false desc=Recurrent tick(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>1</factId>
+  <objectToString>id=tick val=false desc=Recurrent tick</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing for Group [8, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing for Group [8, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing [1]</activationId>
+  <rule>Rule - Regular tick processing</rule>
+  <declarations>tickFlag=id=tick val=false desc=Recurrent tick(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing [1]</activationId>
+  <rule>Rule - Regular tick processing</rule>
+  <declarations>tickFlag=id=tick val=false desc=Recurrent tick(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [10]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(10)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>10</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [10]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(10)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing for Group [11, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)(11)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [Group Updated] =&gt; find new alarms and new events  [11]</activationId>
+  <rule>Rule - [Group Updated] =&gt; find new alarms and new events </rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)(11)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>11</factId>
+  <objectToString>Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [Group Updated] =&gt; find new alarms and new events  [9]</activationId>
+  <rule>Rule - [Group Updated] =&gt; find new alarms and new events </rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>9</factId>
+  <objectToString>Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [Navigation update] =&gt; Recompute Navigation [10, 5]</activationId>
+  <rule>Rule - [Navigation update] =&gt; Recompute Navigation</rule>
+  <declarations>event=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(10)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>10</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [10]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(10)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [Group Updated] =&gt; find new alarms and new events  [11]</activationId>
+  <rule>Rule - [Group Updated] =&gt; find new alarms and new events </rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)(11)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [Group Updated] =&gt; find new alarms and new events  [11]</activationId>
+  <rule>Rule - [Group Updated] =&gt; find new alarms and new events </rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)(11)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [Group Updated] =&gt; find new alarms and new events  [9]</activationId>
+  <rule>Rule - [Group Updated] =&gt; find new alarms and new events </rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [Group Updated] =&gt; find new alarms and new events  [9]</activationId>
+  <rule>Rule - [Group Updated] =&gt; find new alarms and new events </rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [Navigation update] =&gt; Recompute Navigation [10, 5]</activationId>
+  <rule>Rule - [Navigation update] =&gt; Recompute Navigation</rule>
+  <declarations>event=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(10)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>10</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [Navigation update] =&gt; Recompute Navigation [10, 5]</activationId>
+  <rule>Rule - [Navigation update] =&gt; Recompute Navigation</rule>
+  <declarations>event=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 3, t=2020-03-22T14:19:59.561+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(10)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing for Group [11, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)(11)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing for Group [11, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)(11)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [New Alarm] =&gt; potential groups declaration [12]</activationId>
+  <rule>Rule - [New Alarm] =&gt; potential groups declaration</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 4, t=2020-03-22T14:20:09.574+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=true, avc=false, sc=false, ret=false(12)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>1</type>
+  <factId>12</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 4, t=2020-03-22T14:20:09.574+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=true, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [New Alarm] =&gt; potential groups declaration [12]</activationId>
+  <rule>Rule - [New Alarm] =&gt; potential groups declaration</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 4, t=2020-03-22T14:20:09.574+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=true, avc=false, sc=false, ret=false(12)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [12]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 4, t=2020-03-22T14:20:09.574+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(12)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>12</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 4, t=2020-03-22T14:20:09.574+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [New Alarm] =&gt; potential groups declaration [12]</activationId>
+  <rule>Rule - [New Alarm] =&gt; potential groups declaration</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 4, t=2020-03-22T14:20:09.574+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(12)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [12]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 4, t=2020-03-22T14:20:09.574+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(12)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [12]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 4, t=2020-03-22T14:20:09.574+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(12)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [12]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 4, t=2020-03-22T14:20:09.574+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(12)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>12</factId>
+  <objectToString>id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 4, t=2020-03-22T14:20:09.574+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [12]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 4, t=2020-03-22T14:20:09.574+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(12)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - [New Alarm] =&gt; find or create a Group [12]</activationId>
+  <rule>Rule - [New Alarm] =&gt; find or create a Group</rule>
+  <declarations>a=id=OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 4, t=2020-03-22T14:20:09.574+05:00, e=huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752, type=COMMUNICATIONS_ALARM, s=CRITICAL, ns=NOT_CLEARED, os=NOT_ACKNOWLEDGED, ps=NOT_HANDLED, ins=false, avc=false, sc=false, ret=false(12)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing for Group [8, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing for Group [11, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)(11)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing [1]</activationId>
+  <rule>Rule - Regular tick processing</rule>
+  <declarations>tickFlag=id=tick val=false desc=Recurrent tick(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>1</factId>
+  <objectToString>id=tick val=false desc=Recurrent tick</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing for Group [11, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)(11)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing for Group [11, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)(11)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing for Group [8, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing for Group [8, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing [1]</activationId>
+  <rule>Rule - Regular tick processing</rule>
+  <declarations>tickFlag=id=tick val=false desc=Recurrent tick(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing [1]</activationId>
+  <rule>Rule - Regular tick processing</rule>
+  <declarations>tickFlag=id=tick val=false desc=Recurrent tick(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing for Group [8, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing for Group [11, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)(11)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>4</type>
+  <activationId>Rule - Regular tick processing [1]</activationId>
+  <rule>Rule - Regular tick processing</rule>
+  <declarations>tickFlag=id=tick val=false desc=Recurrent tick(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>1</factId>
+  <objectToString>id=tick val=false desc=Recurrent tick</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing for Group [11, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)(11)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing for Group [11, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4224-lre-u33&lt;/e&gt; (399617583)(11)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing for Group [9, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD_BULK&lt;/p&gt;&lt;e&gt;fc.wll.bss.lhr.pp2&lt;/e&gt; (955999926)(9)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing for Group [8, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing for Group [8, 1]</activationId>
+  <rule>Rule - Regular tick processing for Group</rule>
+  <declarations>group=Group: &lt;p&gt;Problem_Eagle_BTS_Outage_Huawei_NTDD&lt;/p&gt;&lt;e&gt;lowermall_dcs-cth-ltrn4324-lre-u301&lt;/e&gt; (965222602)(8)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>6</type>
+  <activationId>Rule - Regular tick processing [1]</activationId>
+  <rule>Rule - Regular tick processing</rule>
+  <declarations>tickFlag=id=tick val=false desc=Recurrent tick(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ActivationLogEvent>
+  <type>7</type>
+  <activationId>Rule - Regular tick processing [1]</activationId>
+  <rule>Rule - Regular tick processing</rule>
+  <declarations>tickFlag=id=tick val=false desc=Recurrent tick(1)</declarations>
+</org.drools.audit.event.ActivationLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+<org.drools.audit.event.ObjectLogEvent>
+  <type>2</type>
+  <factId>5</factId>
+  <objectToString>id=fireAllRules val=false desc=Recurrent FireAllRules</objectToString>
+</org.drools.audit.event.ObjectLogEvent>
+</object-stream>
+</object-stream>

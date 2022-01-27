@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uca:Alarms xmlns:uca="http://hp.com/uca/expert/x733Alarm"
+	xmlns="http://hp.com/uca/expert/x733Alarm">
+	<AlarmCreationInterface xmlns="http://hp.com/uca/expert/x733Alarm">
+		<!-- HTML escape character  &lt; &gt;&amp;&quot;&copy;
+	                           map:  <，  >，  &，   "，      ©; 
+	                           e.g.  <ALM_ID>=&lt;ALM_ID&gt; -->
+		<identifier>OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1</identifier>
+		<sourceIdentifier>TeMIP EMS</sourceIdentifier>
+		<originatingManagedEntity><![CDATA[huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 357 btsfunction 752]]></originatingManagedEntity>
+		<alarmType>COMMUNICATIONS_ALARM</alarmType>
+		<probableCause>UnspecifiedReason</probableCause>
+		<perceivedSeverity>CRITICAL</perceivedSeverity>		
+		<networkState>NOT_CLEARED</networkState>
+		<operatorState>NOT_ACKNOWLEDGED</operatorState>
+		<problemState>NOT_HANDLED</problemState>
+		<problemInformation></problemInformation>
+		<additionalInformation></additionalInformation>
+		<additionalText><![CDATA["NTR2P1003NF@CAT=Gold@NS=@CI=@SA=@Priority=30@FC=FC.WLL.BSS.DIK.BAN@Outage_Flag=@NE_Name=KARAK-NTR2P1003:bNeType: CBSC| NeLocation: | vendor: | neName: PSHBSC6680| 
+                                          alarmName: Environment Monitoring Device Extension Switch Alarm| alarmLocation: BTS 
+                                          Name=KARAK-NTR2P1003, BTS ID=18, Board Type=BCKM_OMU, Board ID=0, Sub-unit Type=No 
+                                          Subunit Type, Sub-unit ID=0, Details=| appendInfo:  
+                                          MOI=DC=www.huawei.com , SubNetwork=1 , ManagedElement=49 , BtsFunction=18 
+                                          NotificationId=3201948 
+                                          SpecificProblem=10112 
+                                          <ALM_ID>180327576<ALM_ID> 
+                                          @BSC_IDENT=@ 
+                                          Look_Info= 
+                                          PA_ID=:: 
+                                          %%%EMS_DOMAIN=WLL@EMS_VENDOR=Huawei@EMS_REGION=Central@EMS_LOCATION=Exchange 
+                                          building # 6 block#D1 gulberg-3 Lahore@FRIENDLY_NAME=M2000_Lahore_01; PSHBSC6680 
+                                          ;KARAK-NTR2P1003;1X @NATIVE_CAUSE=Battery Low Voltage+++"""
+                                          ]]>
+                                          </additionalText>
+		<parents></parents>
+		<parents></parents>
+		<customFields>			
+			<customField name="priority" value="30" />
+			<!--  <customField name="fc" value="FC.WLL.BSS.DIK.BAN" />-->
+			<customField name="neName" value="KARAK-NTR2P1003" />
+			<customField name="friendlyName" value="KARAK-NTR2P1003" />
+			<customField name="alarmName" value="Battery Low Voltage" />
+		</customFields>
+	</AlarmCreationInterface>
+
+
+		
+</uca:Alarms>

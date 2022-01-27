@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uca:Alarms xmlns:uca="http://hp.com/uca/expert/x733Alarm"
+	xmlns="http://hp.com/uca/expert/x733Alarm">
+	<AlarmCreationInterface xmlns="http://hp.com/uca/expert/x733Alarm">
+		<!-- HTML escape character  &lt; &gt;&amp;&quot;&copy;
+	                           map:  <，  >，  &，   "，      ©; 
+	                           e.g.  <ALM_ID>=&lt;ALM_ID&gt; -->
+		<identifier>OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 6</identifier>
+		<sourceIdentifier>TeMIP EMS</sourceIdentifier>
+		<originatingManagedEntity><![CDATA[huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 302]]></originatingManagedEntity>
+		<alarmType>QUALITY_OF_SERVICE_ALARM</alarmType>
+		<probableCause>Unknown</probableCause>
+		<perceivedSeverity>MAJOR</perceivedSeverity>		
+		<networkState>NOT_CLEARED</networkState>
+		<operatorState>NOT_ACKNOWLEDGED</operatorState>
+		<problemState>NOT_HANDLED</problemState>
+		<problemInformation></problemInformation>
+		<additionalInformation></additionalInformation>
+		<additionalText><![CDATA["TRP2067NF@CAT=@NS=@CI=@SA=@Priority=30@FC=FC.WLL.BSS.RWP.ITR@Outage_Flag=@NE_Name=THANDA_PANI-ITRP2067-INDT-USDH:bNeType: BTS3900 LTE| NeLocation: | vendor: | 
+                                          neName: THANDA_PANI-ITRP2067-INDT-USDH| alarmName: Cell Unavailable| alarmLocation: 
+                                          eNodeB Function Name=THANDA_PANI-ITRP2067-INDT-USDH, Local Cell ID=0, Cell 
+                                          Name=THANDA_PANI-ITRP2067-INDT-0, eNodeB ID=12067, Cell ID=0| appendInfo: 
+                                          RAT_INFO=CL, AFFECTED_RAT=L, DID=NULL, eNodeBId=12067 
+                                          MOI=DC=www.huawei.com , SubNetwork=1 , ManagedElement=302 , ENBFunction=12067 , 
+                                          EUtranCellFDD=0 
+                                          NotificationId=14501364 
+                                          SpecificProblem=29240 
+                                          MappingError= Error when mapping MOI field - original value = DC=www.huawei.com , 
+                                          SubNetwork=1 , ManagedElement=302 , ENBFunction=12067 , EUtranCellFDD=0 
+                                          <ALM_ID>127896458<ALM_ID> 
+                                          @BSC_IDENT=@ 
+                                          Look_Info= Cell Unavailable 
+                                          PA_ID=:: 
+                                          %%%EMS_DOMAIN=WLL@EMS_VENDOR=Huawei@EMS_REGION=Central@EMS_LOCATION=Exchange 
+                                          building # 6 block#D1 gulberg-3 Lahore@FRIENDLY_NAME=M2000_Lahore_04; 
+                                          THANDA_PANI-ITRP2067-INDT-USDH ;THANDA_PANI-ITRP2067-INDT-USDH;EVDO & Eagle Both 
+                                          @NATIVE_CAUSE=Cell Unavailable+++"""
+                                          ]]>
+                                          </additionalText>
+		<parents></parents>
+		<parents></parents>
+		<customFields>			
+			<customField name="priority" value="30" />
+			<customField name="fC" value="FC.WLL.BSS.RWP.ITR" />
+			<customField name="neName" value="THANDA_PANI-ITRP2067-INDT-USDH" />
+			<customField name="alarmName" value="Cell Unavailable" />
+		</customFields>
+	</AlarmCreationInterface>
+
+
+		
+</uca:Alarms>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uca:Alarms xmlns:uca="http://hp.com/uca/expert/x733Alarm"
+	xmlns="http://hp.com/uca/expert/x733Alarm">
+	<AlarmCreationInterface xmlns="http://hp.com/uca/expert/x733Alarm">
+		<!-- HTML escape character  &lt; &gt;&amp;&quot;&copy;
+	                           map:  <，  >，  &，   "，      ©; 
+	                           e.g.  <ALM_ID>=&lt;ALM_ID&gt; -->
+		<identifier>OPERATION_CONTEXT ihvtfs01_ns:.Nor_MW_Huawei alarm_object 556318</identifier>
+		<sourceIdentifier>TeMIP EMS</sourceIdentifier>
+		<originatingManagedEntity><![CDATA[HW_T2000_Sys ihvtfs01_ns:.U2000_Rawalpindi_01 Managed_Element "3145867" PTP "/rack=1/shelf=1/slot=3/domain=ptn/type=physical/port=1"]]></originatingManagedEntity>
+		<alarmType>COMMUNICATIONS_ALARM</alarmType>
+		<probableCause>Unknown</probableCause>
+		<perceivedSeverity>CRITICAL</perceivedSeverity>		
+		<networkState>NOT_CLEARED</networkState>
+		<operatorState>NOT_ACKNOWLEDGED</operatorState>
+		<problemState>NOT_HANDLED</problemState>
+		<problemInformation></problemInformation>
+		<additionalInformation></additionalInformation>
+		<additionalText><![CDATA["@Priority=10@FC=FC.WLL.BSS.RWP.ITR@Outage_Flag=@NE_Name=ITRP2028(H)-ITRP2071-F 11 EXCH_GOLRA-LTE:b@USER=:add:U2000_Rawalpindi_01;3145867;/rack=1/shelf=1/slot=3/domain=
+                                          ptn/type=physical/port=1 
+                                          native ProbableCause=MW_LOF, 
+                                          service affecting=SA_NON_SERVICE_AFFECTING, 
+                                           
+                                          nativeEMS Name=U2000_Rawalpindi_01;ITRP2028(H)-ITRP2071-F 11 
+                                          EXCH_GOLRA-LTE;/rack=1/shelf=1/slot=3/domain=ptn/type=physical/port=1, 
+                                          additionalInfo = Direction=NA; Location=NA; MaintenanceStatus=NotInMaintenance; 
+                                          AlarmSerialNo=15544750; AlarmReason=microwave loss of frame; ProductName=OptiX RTN 
+                                          905; EquipmentName=ISU3; AffirmState=FALSE; DetailInfo=; HandlingSuggestion=\1. 
+                                          Certain other alarms occur, such as VOLT_LOS and IF_CABLE_OPEN.\2. The IF parameters 
+                                          (such as IF working mode, channel bandwidth, and modulation scheme) specified for 
+                                          the local station do not match the IF parameters specified for the opposite 
+                                          station.\3. The radio frequency of the local station does not match the radio 
+                                          frequency of the opposite station.\4. The transmit unit of the opposite station is 
+                                          faulty.\5. The receive unit of the local station is faulty.\6. The receive power of 
+                                          the ODU at the local station is abnormal.\7. Interference signals exist on the 
+                                          link.; LocationInfo=3-ISU3-1(RTNIF-1)-RTNIF:1; affectedASONObjectName=; 
+                                          affectedSNCNativeEMSName=; , 
+                                          , 
+                                          <ALM_ID>EMS U2000_Rawalpindi_01 ManagedElement 3145867 PTP 
+                                          /rack=1/shelf=1/slot=3/domain=ptn/type=physical/port=1@#@1-631@#@UNIDENTIFIED@#@48<AL
+                                          M_ID> 
+                                          Link INFO:U2000_Rawalpindi_01;ITRP2028(H)-ITRP2071-F 11 
+                                          EXCH_GOLRA-LTE;/rack=1/shelf=1/slot=3/type=physical/port=1 
+                                          Link INFO1(wdm):U2000_Rawalpindi_01;ITRP2028(H)-ITRP2071-F 11 
+                                          EXCH_GOLRA-LTE;/rack=1/shelf=1/slot=3/domain=ptn/type=physical/port=1 
+                                          NE_Lookup:ITRP2028(H)-ITRP2071-F 11 EXCH_GOLRA-LTE__ITRP2028(H)-ITRP2071-F 11 
+                                          EXCH_GOLRA-LTE;/rack=1/shelf=1/slot=3/domain=ptn/type=physical/port=1__ 
+                                          @AEnd=EMS U2000_Rawalpindi_01 Managed_Element ITRP2028(H)-ITRP2071-F 11 
+                                          EXCH_GOLRA-LTE PTP 
+                                          /rack=1/shelf=1/slot=3/domain=ptn/type=physical/port=1@ZEnd=@SERVICE=:: 
+                                          OUTAGE_CAUSED(F/C)= 
+                                          LINK_FC= 
+                                          PA_ID=:: 
+                                          topology=/rack=1/shelf=1/slot=3/domain=ptn/type=physical/port=1 
+                                          %%%EMS_DOMAIN=Transmission@EMS_VENDOR=Huawei@EMS_REGION=North@EMS_LOCATION=BSC Room, 
+                                          Satellite Town, Rawalpindi@FRIENDLY_NAME=U2000_Rawalpindi_01;ITRP2028(H)-ITRP2071-F 
+                                          11 
+                                          EXCH_GOLRA-LTE;/rack=1/shelf=1/slot=3/domain=ptn/type=physical/port=1;ISU3@NATIVE_CAUSE=MW_LOF+++ 
+                                          TRANSIENT_FILTER FS03_T2000_All_Alarm: 1 events 
+                                           
+                                          This is a value added event emitted by TRANSIENT_FILTER FS03_T2000_All_Alarm 
+                                           Number of similar events received during the filtering period: 1 
+                                               	0 with severity indeterminate 
+                                          	1 with severity critical 
+                                          	0 with severity major 
+                                          	0 with severity minor 
+                                          	0 with severity warning 
+                                          	0 with severity clear 
+                                          First event received timestamp Wed, Jan 31, 2018 11:39:47 AM 
+                                           Last event received timestamp Wed, Jan 31, 2018 11:39:47 AM 
+                                          """
+                                          ]]>
+                                          </additionalText>
+		<parents></parents>
+		<parents></parents>
+		<customFields>			
+			<customField name="priority" value="10" />
+			<customField name="fC" value="FC.WLL.BSS.RWP.ITR" />
+			<customField name="alarmName" value="MW_LOF" />
+		</customFields>
+	</AlarmCreationInterface>
+
+
+		
+</uca:Alarms>

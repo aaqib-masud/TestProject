@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uca:Alarms xmlns:uca="http://hp.com/uca/expert/x733Alarm"
+	xmlns="http://hp.com/uca/expert/x733Alarm">
+	<AlarmCreationInterface xmlns="http://hp.com/uca/expert/x733Alarm">
+		<!-- HTML escape character  &lt; &gt;&amp;&quot;&copy;
+	                           map:  <，  >，  &，   "，      ©; 
+	                           e.g.  <ALM_ID>=&lt;ALM_ID&gt; -->
+		<identifier>OPERATION_CONTEXT ihvtfs01_ns:.Cen_WLLRadio_Huawei alarm_object 1</identifier>
+		<sourceIdentifier>TeMIP EMS</sourceIdentifier>
+		<originatingManagedEntity><![CDATA[huawei_m2000_system ihvtfs01_ns:.m2000_lahore_04 managed_element 302]]></originatingManagedEntity>
+		<alarmType>QUALITY_OF_SERVICE_ALARM</alarmType>
+		<probableCause>Unknown</probableCause>
+		<perceivedSeverity>MAJOR</perceivedSeverity>		
+		<networkState>NOT_CLEARED</networkState>
+		<operatorState>NOT_ACKNOWLEDGED</operatorState>
+		<problemState>NOT_HANDLED</problemState>
+		<problemInformation></problemInformation>
+		<additionalInformation></additionalInformation>
+		<additionalText><![CDATA["ITRP2067NF@CAT=Gold@NS=@CI=@SA=@Priority=30@FC=FC.WLL.BSS.RWP.ITR@Outage_Flag=@NE_Name=THANDA_PANI-ITRP2067-INDT-USDH:bNeType: CBSC| NeLocation: | vendor: | neName: 
+                                          ITRBSC6680| alarmName: Sector Out of Service| alarmLocation: BTS ID=115, BTS Name=THANDA_PANI-ITRP2067-INDT-USDH, Cell ID=2115, sector ID=2, Service type=EV-DO| appendInfo:  
+                                          MOI=DC=www.huawei.com , SubNetwork=1 , ManagedElement=15 , BtsFunction=115 
+                                          NotificationId=14501392 
+                                          SpecificProblem=2312 
+                                          <ALM_ID>127896476<ALM_ID> 
+                                          @BSC_IDENT=@ 
+                                          Look_Info= Sector Out of Service 
+                                          PA_ID=:: 
+                                          %%%EMS_DOMAIN=WLL@EMS_VENDOR=Huawei@EMS_REGION=Central@EMS_LOCATION=Exchange 
+                                          building # 6 block#D1 gulberg-3 Lahore@FRIENDLY_NAME=M2000_Lahore_04; ITRBSC6680 
+                                          ;THANDA_PANI-ITRP2067-INDT-USDH;EVDO & Eagle Both @NATIVE_CAUSE= Sector Out of 
+                                          Service+++"
+                                          ]]>
+                                          </additionalText>
+		<parents></parents>
+		<parents></parents>
+		<customFields>			
+			<customField name="priority" value="30" />
+			<customField name="fC" value="FC.WLL.BSS.RWP.ITR" />
+			<customField name="ne_name" value="THANDA_PANI-ITRP2067-INDT-USDH" />
+			<customField name="alarmName" value="Sector Out of Service" />
+		</customFields>
+	</AlarmCreationInterface>
+
+
+		
+</uca:Alarms>
