@@ -22,7 +22,7 @@
 						<stringFilterStatement>
 	                		<fieldName>additionalText</fieldName>
 	                		<operator>contains</operator>
-	                		<fieldValue>Problem_Ufone_Datacom_All_Critical_Alarms_2Min</fieldValue>
+	                		<fieldValue>Problem_Ufone_Datacom_All_Critical_Alarms_2Min_NewChange</fieldValue>
 	                	</stringFilterStatement>
 						<stringFilterStatement>
 							<fieldName>additionalText</fieldName>
